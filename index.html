@@ -23,17 +23,20 @@
 </head>
 
 <body>
+	
+	 <div class="astatho">
+ 	 <div id="typer">hello, I'm Agathocles<span class="blink">.</span> </div>
+     <h1 id="first-line"> 
+	     
 <!-- js -->
  	 <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
-	 <script type="text/javascript" src="js/jquery.typer.js"></script>
+        <script src='jquery.typer.js'></script>
 
-     <div class="astatho">
- 	 <div id="typer">hello, I'm Agathocles<span class="blink">.</span> </div>
-     <h1 id="first-line">   
+     
      <script>
             var win = $(window),
-                text = $('#typer');
-          text.typer(['Hello, I\'m Agathocles.','Currently working','for Welcome Pickups, the world best airport pickup service','.','Enjoy the <a class="yellow" href="https://www.youtube.com/watch?v=nwIqTTRSjKg">sun</a> !', ]); 
+                foo = $('#typer');
+          foo.typer(['Hello, I\'m Agathocles.','Currently working','for Welcome Pickups, the world best airport pickup service','.','Enjoy the <a class="yellow" href="https://www.youtube.com/watch?v=nwIqTTRSjKg">sun</a> !', ]); 
             // unneeded...
             win.resize(function(){
                 var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
