@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond % ^http://www.agathocl.es [NC]
-RewriteRule ^(.*)$ http://agathocl.es/$1 [L,R=301]
+RewriteCond % ^https://www.agathocl.es [NC]
+RewriteRule ^(.*)$ https://agathocl.es/$1 [L,R=301]
